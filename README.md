@@ -1,12 +1,10 @@
-# TIBCO Migration Utility Documentation
+TIBCO Migration Utility Documentation
 
-## 1. Tool Overview
+1. Tool Overview
 
-The **TIBCO Migration Utility** is designed to streamline the migration of TIBCO process files to Java-based microservices. It automates the conversion of complex TIBCO XML configurations, XSD schemas, and copybook files into a standardized Java format, improving development efficiency and reducing manual errors.
+The *TIBCO Migration Utility* is designed to streamline the migration of TIBCO process files to Java-based microservices. It automates the conversion of complex TIBCO XML configurations, XSD schemas, and copybook files into a standardized Java format, improving development efficiency and reducing manual errors.
 
----
-
-## 2. Key Features
+2. Key Features
 
 * Automated conversion of TIBCO process files
 * Support for XSD schema and copybook parsing
@@ -14,9 +12,7 @@ The **TIBCO Migration Utility** is designed to streamline the migration of TIBCO
 * Seamless integration with existing CI/CD pipelines
 * Detailed logging for efficient debugging
 
----
-
-## 3. Prerequisites
+3. Prerequisites
 
 Before using this tool, ensure that the following prerequisites are met:
 
@@ -24,9 +20,7 @@ Before using this tool, ensure that the following prerequisites are met:
 * Maven 3.8+ installed
 * Sufficient memory and CPU resources
 
----
-
-## 4. Project Structure
+4. Project Structure
 
 The project should be organized as follows to ensure smooth operation of the utility:
 
@@ -52,11 +46,11 @@ TIBCO-Migration-Utility/
 └── LICENSE
 ```
 
-> **Note:** Ensure that the required files are placed in the appropriate directories before building the project.
+**Note:** Ensure that the required files are placed in the appropriate directories before building the project.
 
-### cb2xml.properties
+cb2xml.properties
 
-Create a file named `cb2xml.properties` in the project root directory with the following configuration:
+Create a file named *cb2xml.properties* in the project root directory with the following configuration:
 
 ```
 column.start=6
@@ -65,13 +59,9 @@ column.end=200
 
 This file is used to define the parsing range for copybook files, ensuring accurate data extraction during the migration process.
 
----
+5. POM Configuration
 
-## 5. POM Configuration
-
-Provide a sample `pom.xml` file with necessary dependencies and plugins. You can adjust this section based on the specific requirements of the tool.
-
-**Example POM Configuration:**
+Provide a sample *pom.xml* file with necessary dependencies and plugins. You can adjust this section based on the specific requirements of the tool.
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -121,26 +111,18 @@ Provide a sample `pom.xml` file with necessary dependencies and plugins. You can
 </project>
 ```
 
----
-
-## 6. Usage Guide
+6. Usage Guide
 
 Provide a step-by-step guide on how to use the tool, including commands, configuration examples, and best practices.
 
----
-
-## 7. Troubleshooting
+7. Troubleshooting
 
 Common issues and their solutions. Include links to logs or screenshots where necessary.
 
----
-
-## 8. Contact and Support
+8. Contact and Support
 
 Provide contact information for technical support or additional assistance.
 
----
-
-## 9. Appendix
+9. Appendix
 
 Include any additional information, resources, or references that may be helpful for users.
